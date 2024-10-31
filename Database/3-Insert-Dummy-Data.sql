@@ -34,7 +34,7 @@ VALUES
 INSERT INTO Money_Records (pocket_id, goal_id, record_name, record_type, transaction_date, transaction_amount, record_description)
 VALUES 
     	(1, NULL, 'Groceries', 'Expense', NOW(), 100000.00, 'Weekly groceries shopping'),
-    	(2, 1, 'Add to Vacation Fund', 'Transfer', NOW(), 500000.00, 'Added to vacation fund'),
+    	(NULL, 1, 'Add to Vacation Fund', 'Income', NOW(), 500000.00, 'Added to vacation fund'),
     	(3, NULL, 'Movie Ticket', 'Expense', NOW(), 50000.00, 'Watched a movie at the cinema');
 
 -- Insert into Users Table
